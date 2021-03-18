@@ -1,0 +1,133 @@
+<!Doctype html>
+<html>
+
+    <head>
+        <title>Cacau Brew Homepage</title>
+        <!--		Viewport tag-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <!--		normailize.css-->
+        <link rel="stylesheet" href="./css/normalize.css">
+
+        <!--		personal stylesheet-->
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div class="page-wrapper">
+            <div class="headnav">
+                <header>
+                    <div id="hamburger-menu">
+                        <a class="btn btn-secondary dropdown-toggle" href="menu.html" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"><img src="./images/hamburger-logo.png" alt="hamburger-menu" width="60" height="40"></a>
+                        <ul id="nav-dropdown" class="nav-full dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="menu.html">Cafe Menu</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="index.html"><img src="./images/cacau-brew2.png" alt="specials" width="70" height="70" class="logo">
+                            <h1 class="cacau-headT">CACAU BREW</h1>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="contact.html"><img src="./images/person-circle%20copy.svg" alt="login-signup" width="40" height="40" title="Bootstrap"></a>
+                    </div>
+                </header>
+                <nav class="navbar">
+                    <div id="nav-bar" class="nav-full">
+                        <a href="index.html">Home</a>
+                        <a href="menu.html">Cafe Menu</a>
+                        <a href="about.html">About</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+
+                </nav>
+            </div>
+            <div class="covid-news">
+                <a href="news.html" class="covid">Covid-19 Safety tips and News Updates</a>
+            </div>
+            <main class="grid">
+                <form action="enquiries.html" method="POST">
+                    <h1>Contact Us!</h1>
+                    <section class="name">
+                        <label for="name">First Name</label>
+                        <input type="text" name="first" id="first">
+                    </section>
+                    <hr>
+                    <section>
+                        <label for="name">Last Name</label>
+                        <input type="text" name="last" id="last">
+                    </section>
+                    <hr>
+                    <section>
+                        <label for="address">City of Residence</label>
+                        <input type="text" name="address" id="address">
+                    </section>
+                    <hr>
+                    <section>
+                        <label for="fave">Favorite Menu Item</label>
+                        <input type="text" name="fave" id="fave">
+                    </section>
+                    <hr>
+                    <section class="rating">
+                        <label for="happiness">How would you rate our services, 1 being fair and 10 being great.</label>
+                        <br>
+                        <span>1</span>
+                        <input type="range" name="happiness" id="happiness" min="0" max="10">
+                        <span>10</span>
+                    </section>
+                    <hr>
+                    <section class="find-us">
+                        <label for="find-us">How did you hear about us?</label>
+                        <select name="find-us" id="find-us">
+                            <option value="socialmedia">Social media</option>
+                            <option value="tv-radio">Tv/Radio</option>
+                            <option value="newspaper">Newspaper Ad/Banner</option>
+                        </select>
+                    </section>
+                    <hr>
+
+                    <section class="extra-info">
+                        <label for="extra">Anything else you want to add?</label>
+                        <br>
+
+                        <textarea id="extra" name="extra" rows="3" cols="40">
+                            Description!
+                          </textarea>
+                    </section>
+
+                    <section class="submission">
+                        <input type="submit" value="Submit">
+                    </section>
+                </form>
+            </main>
+            <aside>
+
+            </aside>
+            <footer id="more">
+                <div class="foot-nav">
+                    <a href="index.html">
+                        <p>About</p>
+                    </a>
+                    <a href="contact.html">
+                        <p>Contact</p>
+                    </a>
+                    <a href="careers.html">
+                        <p>Careers</p>
+                    </a>
+                    <a href="legacy.html">
+                        <p>Legacy</p>
+                    </a>
+                </div>
+                <div id="copyright" class="copyright">
+                    <p>©OmadaAgom2020</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
